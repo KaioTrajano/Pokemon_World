@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/95442199ab.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kaiotrajano.github.io/Pokémon_World/style.css">
+    <title>Pokémon World</title>
+</head>
+
+
+
+<body id="corpo">
+
+    
+<div class='loader' id="load"></div>
+
+<div id="loadingscreen">
+    <img  src="images/pokemonlogo.png" alt="pokemonlogo">
+    <img id="loader" src="images/pokeballgif2.gif" alt="loadergif">
+    <span>Encontrando pokemons</span>
+</div>
+
+
+
+<section class="sobre" id="sobre">
+<button id="close"><span>X</span></button>
+<img class="pokedex" id="pokedex" src="images/pokedex.png" alt="pokedex">
+<h2 id="pokedexname"></h2>
+<div class="pokemonsobreimage">
+  
+
+
+<img src="" id="frontface" alt="o pokémon está em batalha">
+
+<div id="nextstats"><span id="nextspan"><i class="fa-solid fa-caret-right"></i></span></div>
+<div id="prevstats"><span id="prevspan"> <i class="fa-solid fa-caret-left"></i></span></div>
+
+<div class="boxstats">
+    
+<div id="heightstats"></div>
+
+<div class="stats" id="stats">
+
+
+<div>
+    <span id="hpstats"></span>
+    <div class="statsbar" id="hpbar"></div>
+</div>
+
+
+<div>
+    <span id="speed"></span>
+    <div class="statsbar" id="speedbar"></div>
+</div>
+
+<div>
+    <span id="attackstats"></span>
+    <div class="statsbar" id="attackbar"></div>
+</div>
+
+
+<div>
+    <span id="specialattack">hp: 80</span>
+    <div class="statsbar" id="specialatkbar"></div>
+</div>
+
+
+<div>
+    <span id="defensestats"></span>
+    <div class="statsbar" id="defensebar"></div>
+    
+</div>
+
+<div>
+    <span id="specialdefense"></span>
+    <div class="statsbar" id="specialdfbar"></div>
+</div>
+
+</div>
+</div>
+
+<button id="prev"><span>Prev</span></button>
+<button id="next"><span>Next</span></button>
+
+
+</section>
+
+<div id="teste">
+
+<div id="logo">
+    <img  src="images/pokemonlogo.png">
+</div>
+
+    
+<div class="searchdiv">
+    <input type="search" id="searchpokemon" placeholder="Search for a pokemon" autocomplete="off">
+    
+        <button type="button" id="categoriesbutton" data-bs-toggle="dropdown" aria-expanded="false">
+           <span id="categorie">Generation I</span> <i class="fas fa-caret-down" id="arrow"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" id="ulmenu">
+          <li><button class="dropdown-item"  id="generation1" type="button">Generation I</button></li>
+          <li><button class="dropdown-item" id="generation2" type="button">Generation II</button></li>
+          <li><button class="dropdown-item" id="generation3" type="button">Generation III</button></li>
+          <li><button class="dropdown-item"  id="generation4" type="button">Generation IV</button></li>
+          <li><button class="dropdown-item"  id="generation5" type="button">Generation V</button></li>
+          <li><button class="dropdown-item"  id="generation6" type="button">Generation VI</button></li>
+          <li><button class="dropdown-item"  id="generation7" type="button">Generation VII</button></li>
+          <li><button class="dropdown-item"  id="favorites" type="button">Favorites</button></li>
+        </ul>
+</div>
+
+<section id="deletepokemons">
+    <button id="deleteall"><i class="fas fa-heart-broken"></i><span>Deslike all</span></button>
+</section>
+
+ <section id="pokemons">
+
+
+
+
+ </section>   
+ <div id="notfound">
+    <img src="images/notfound.png" alt="">
+    <span id="information">Pokemón not found</span>
+    
+ </div>
+
+ <div id="empty_favorite">
+    <img src="images/empty2.svg" alt="">
+    <span id="information">You still haven't favorite any pokemon</span>
+    
+ </div>
+
+
+
+</div>
+
+
+<div class="up" id="up">
+    <img src="images/up-arrow.png" alt="">
+</div>
+    
+
+
+<script src="scripts.js"></script>  
+    
+</body>
+
+
+</html>
