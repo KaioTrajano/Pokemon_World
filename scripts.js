@@ -6,7 +6,7 @@ let searchinput = document.getElementById("searchpokemon")
 let sobre = document.getElementById("sobre")
 let pokedex = document.getElementById("pokedex")
 let frontface = document.getElementById("frontface")
-let corpo = document.getElementById("teste")
+let corpo = document.getElementById("section")
 let load = document.getElementById("load")
 let close = document.getElementById("close")
 let stats = document.getElementById("stats")
@@ -83,7 +83,6 @@ let response = await fetch(pokemonlink(i))
 
 var data = await response.json()
 
-console.log(data)
 
 createpokemoncard(i,data)
 
@@ -101,9 +100,9 @@ finishfetchstyles()
 
 
 function getbuttons(){
+
   let buttons = document.querySelectorAll(".sobrebutton")
-let arrdebuttons = Array.from(buttons)
-console.log(arrdebuttons)
+  let arrdebuttons = Array.from(buttons)
 
 
 
@@ -114,7 +113,6 @@ button.addEventListener("click", () =>{
     stats.classList.add("statsanimationclass4")
     
     id = parseInt(button.id)
-    console.log(id)
 
    fetchbutton() 
 
@@ -247,7 +245,7 @@ heightstats.classList.remove("statsanimationclass")
   },0)
   
   id++
-  console.log(id)
+
 
 fetchbutton()
 
@@ -542,7 +540,6 @@ favorite.addEventListener("click", () =>{
           favoritepokemons.push(pokecard)
           pokecard.children[5].classList.add("liked")
           pokecard.classList.add("likedcard")
-          console.log(pokecard)
         }
     
     
@@ -619,7 +616,6 @@ close.addEventListener("click", () =>{
     corpo.style.filter = "blur(0px)";
     corpo.style.pointerEvents = "all"
     id = NaN
-    console.log(id)
     heightstats.removeChild(span)
     heightstats.removeChild(heightimage)
 
