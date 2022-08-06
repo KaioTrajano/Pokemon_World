@@ -24,6 +24,10 @@ body{
     
 }
 
+blockquote{
+    border-left: 5px solid #00ff22; 
+  }
+
 #deleteall{
     width: 210px;
     background-color:#f11c1c;
