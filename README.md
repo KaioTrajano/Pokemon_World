@@ -25,7 +25,7 @@ Pokémon World é um projeto pensado e desenvolvido por mim, com o objetivo de c
 
 <h2>Abrindo uma pokédex</h2>
 
-<p>Você pode clicar no botão de pokedex para abrir a pokedex do pokémon em específico. Na pokédex vc encontra estatisticas mais detalhadas daquele pokémon, como seus atributos e sua altura. Para alternar entre eles basta clicar na seta ao lado</p>
+<p>Você pode clicar no botão de pokedex para abrir a pokedex do pokémon em específico. Na pokédex você encontra estatisticas mais detalhadas daquele pokémon, como seus atributos e sua altura. Para alternar entre eles basta clicar na seta ao lado</p>
 
 <a href="https://ibb.co/By25Pxf"><img style="box-shadow: 0px 0px 5px grey" src="https://i.ibb.co/Jvjwd4c/pokedexreadmeimg.png" alt="pokedexreadmeimg" border="0"></a>
 
