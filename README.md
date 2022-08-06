@@ -43,7 +43,7 @@ Pokémon World é um projeto pensado e desenvolvido por mim, com o objetivo de c
 
 <p> Você pode escolher uma geração específica clicando no menu ao lado, um icone de uma pokebola vai te informar em que categoria você está</p>
 
-<a href="https://imgbb.com/"><img style=" width: 100%; margin: auto; box-shadow: 0px 0px 5px grey" src="https://i.ibb.co/Wt7vXpq/imagem-2022-08-05-213648391.png" alt="imagem-2022-08-05-213648391" border="0"></a>
+<a href="https://imgbb.com/"><img style=" width: 50%; margin: auto; box-shadow: 0px 0px 5px grey" src="https://i.ibb.co/Wt7vXpq/imagem-2022-08-05-213648391.png" alt="imagem-2022-08-05-213648391" border="0"></a>
 
 <h2>Favoritando um pokémon</h2>
 
