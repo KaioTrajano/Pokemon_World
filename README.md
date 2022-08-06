@@ -57,7 +57,7 @@ Pokémon World é um projeto pensado e desenvolvido por mim, com o objetivo de c
 
 <br><br><br><br><br>
 
-
+Link para o projeto: https://kaiotrajano.github.io/Pokemon_World/
 
 
   
