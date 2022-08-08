@@ -1136,7 +1136,7 @@ background-color: rgb(140, 228, 255);
 #pokemons{
     
     width: 230px;
-    grid-template-columns: 250px;
+    grid-template-columns: 230px;
    
     
 }
